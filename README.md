@@ -12,13 +12,16 @@
 
 This project uses npm node.js, mysql2, npm inquirer, SQL, npm console.table, and Javascript in order to allow an individual to manage a company database via a CLI. This application is a Content Management System (CMS). The user can add company departments, roles, and employees as well as add the aforementioned data into the database, and even update an employees role and manager in the database.
 
+![Screenshot of the password generator](https://github.com/marcusikegami/sql-employee-tracker/blob/main/Assets/images/SQLET-demo.png?raw=true)
+
 ## Installation
 
-Clone this repository to your machine in the desired directory. Navigate to this directory in a Command Line Interface of your choice.In the root directory, run the command npm install to download all the required packages contained in the node_modules folder. If installation was successful, run the command
+For installation and a demonstration of use see my YouTube video tutorial.
+[SQL Employee Tracker Usage and Installation Tutorial](https://www.youtube.com/watch?v=DL34X66LoCc&ab_channel=mikegami.github)
 
 ## Usage
 
-This software is designed to allow a company or manager to create a SQL database that contains departments, roles, employees, and managers. The database is built in SQL using npm mysql2, javascript, npm inquirer, and node.js.
+This software is designed to allow a company or manager to create and edit a SQL database that contains departments, roles, employees, and managers. The database is built in SQL using npm mysql2, javascript, npm inquirer, and node.js.
 
 ## Questions
 
@@ -27,6 +30,11 @@ This software is designed to allow a company or manager to create a SQL database
 **mikegami.github@gmail.com**
 
 Reach out to my provided email with questions and I will respond as quickly as possible.
+
+## Future Additions
+* dynamically updated choices in place of inputting a department/role/employee ID.
+* deleting departments/roles/employees
+* selecting from a list of employee managers instead of inputting manager IDs.
 
 ## License
 
